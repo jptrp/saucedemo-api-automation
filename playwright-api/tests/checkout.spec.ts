@@ -26,8 +26,8 @@ test.describe('Checkout/End-to-End Flow Tests', () => {
     expect(loginResponse.status()).toBe(200);
     const loginData = loginResponseSchema.parse(await loginResponse.json());
     
-    expect(loginData.token).toBeDefined();
-    const authToken = loginData.token;
+    expect(loginData.accessToken).toBeDefined();
+    const authToken = loginData.accessToken;
     const userId = loginData.id;
 
     // Step 2: Browse Products

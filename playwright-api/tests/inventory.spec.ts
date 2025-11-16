@@ -125,7 +125,10 @@ test.describe('Inventory/Products API Tests', () => {
     
     expect(Array.isArray(responseBody)).toBeTruthy();
     expect(responseBody.length).toBeGreaterThan(0);
-    expect(responseBody).toContain('smartphones');
+    
+    // Categories now return objects with slug, name, and url
+    const hasSmartphones = responseBody.some((cat: any) => cat.slug === 'smartphones');
+    expect(hasSmartphones).toBeTruthy();
   });
 
   test('GET /products/category/:category - retrieve products by category', async () => {

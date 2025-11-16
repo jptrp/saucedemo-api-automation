@@ -20,7 +20,7 @@ test.describe('Cart API Tests', () => {
     });
     
     const loginData = loginResponseSchema.parse(await loginResponse.json());
-    authToken = loginData.token;
+    authToken = loginData.accessToken;
   });
 
   test.afterAll(async () => {

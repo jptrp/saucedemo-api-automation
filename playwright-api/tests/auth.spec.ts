@@ -31,8 +31,8 @@ test.describe('Authentication API Tests', () => {
     // Validate response schema using Zod
     const validatedData = loginResponseSchema.parse(responseBody);
     
-    expect(validatedData.token).toBeDefined();
-    expect(validatedData.token.length).toBeGreaterThan(0);
+    expect(validatedData.accessToken).toBeDefined();
+    expect(validatedData.accessToken.length).toBeGreaterThan(0);
     expect(validatedData.refreshToken).toBeDefined();
     expect(validatedData.username).toBe('emilys');
     expect(validatedData.email).toContain('@');
@@ -51,7 +51,7 @@ test.describe('Authentication API Tests', () => {
     
     const validatedData = loginResponseSchema.parse(responseBody);
     expect(validatedData.username).toBe('michaelw');
-    expect(validatedData.token).toBeDefined();
+    expect(validatedData.accessToken).toBeDefined();
   });
 
   test('POST /auth/login - fail with invalid credentials', async () => {
@@ -113,7 +113,7 @@ test.describe('Authentication API Tests', () => {
     const validatedData = loginResponseSchema.parse(responseBody);
 
     // Token should be a JWT-like string
-    expect(validatedData.token).toMatch(/^[\w-]+\.[\w-]+\.[\w-]+$/);
+    expect(validatedData.accessToken).toMatch(/^[\w-]+\.[\w-]+\.[\w-]+$/);
     expect(validatedData.refreshToken).toMatch(/^[\w-]+\.[\w-]+\.[\w-]+$/);
   });
 });

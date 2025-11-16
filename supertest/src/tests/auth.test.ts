@@ -33,7 +33,7 @@ describe('Authentication API Tests - Axios', () => {
 
     const validatedData = loginResponseSchema.parse(response.data);
     expect(validatedData.username).toBe('michaelw');
-    expect(validatedData.token).toBeDefined();
+    expect(validatedData.accessToken).toBeDefined();
   });
 
   test('POST /auth/login - fail with invalid credentials', async () => {
@@ -91,7 +91,7 @@ describe('Authentication API Tests - Axios', () => {
     const validatedData = loginResponseSchema.parse(response.data);
 
     // Token should be a JWT-like string
-    expect(validatedData.token).toMatch(/^[\w-]+\.[\w-]+\.[\w-]+$/);
+    expect(validatedData.accessToken).toMatch(/^[\w-]+\.[\w-]+\.[\w-]+$/);
     expect(validatedData.refreshToken).toMatch(/^[\w-]+\.[\w-]+\.[\w-]+$/);
   });
 });
@@ -111,7 +111,7 @@ describe('Authentication API Tests - Supertest', () => {
       .expect('Content-Type', /json/);
 
     const validatedData = loginResponseSchema.parse(response.body);
-    expect(validatedData.token).toBeDefined();
+    expect(validatedData.accessToken).toBeDefined();
     expect(validatedData.username).toBe('emilys');
   });
 

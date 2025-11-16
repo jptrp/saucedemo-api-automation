@@ -20,7 +20,7 @@ export const loginResponseSchema = z.object({
   lastName: z.string(),
   gender: z.string(),
   image: z.string().url(),
-  token: z.string(),
+  accessToken: z.string(),
   refreshToken: z.string(),
 });
 
@@ -35,7 +35,7 @@ export const productSchema = z.object({
   discountPercentage: z.number(),
   rating: z.number(),
   stock: z.number(),
-  brand: z.string(),
+  brand: z.string().optional(),
   category: z.string(),
   thumbnail: z.string().url(),
   images: z.array(z.string().url()),
@@ -61,7 +61,8 @@ export const cartProductSchema = z.object({
   quantity: z.number(),
   total: z.number(),
   discountPercentage: z.number(),
-  discountedPrice: z.number(),
+  discountedTotal: z.number().optional(), // Used in GET /carts
+  discountedPrice: z.number().optional(), // Used in POST /carts/add
   thumbnail: z.string().optional(),
 });
 

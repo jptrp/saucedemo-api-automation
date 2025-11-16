@@ -15,7 +15,7 @@ describe('Cart API Tests - Axios', () => {
     });
 
     const loginData = loginResponseSchema.parse(loginResponse.data);
-    authToken = loginData.token;
+    authToken = loginData.accessToken;
     userId = loginData.id;
   });
 

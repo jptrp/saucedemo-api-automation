@@ -24,12 +24,10 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node-version }}
-          cache: 'npm'
-          cache-dependency-path: playwright-api/package-lock.json
       
       - name: Install dependencies
         working-directory: ./playwright-api
-        run: npm ci
+        run: npm install
       
       - name: Install Playwright browsers
         working-directory: ./playwright-api
@@ -73,12 +71,10 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node-version }}
-          cache: 'npm'
-          cache-dependency-path: supertest/package-lock.json
       
       - name: Install dependencies
         working-directory: ./supertest
-        run: npm ci
+        run: npm install
       
       - name: Run Supertest/Vitest API tests
         working-directory: ./supertest

@@ -172,7 +172,7 @@ test.describe('Checkout/End-to-End Flow Tests', () => {
     // Step 3: Browse products in first category
     const category = categories[0];
     const categoryProductsResponse = await apiContext.get(
-      endpoints.products.category(category)
+      endpoints.products.category(category.slug)
     );
     
     expect(categoryProductsResponse.status()).toBe(200);
@@ -217,8 +217,9 @@ test.describe('Checkout/End-to-End Flow Tests', () => {
     });
 
     const cartData = await cartResponse.json();
-    const cartId = cartData.id;
-    const originalTotal = cartData.total;
+    // Note: DummyJSON only allows updates to pre-existing carts (IDs 1-30)
+    // Using cart ID 1 instead of the mock ID returned from add
+    const cartId = 1;
 
     // Step 3: Update cart quantity
     const updateResponse = await apiContext.put(endpoints.carts.update(cartId), {

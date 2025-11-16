@@ -206,7 +206,7 @@ test.describe('Cart API Tests', () => {
     
     expect(loginResponse.status()).toBe(200);
     const loginData = await loginResponse.json();
-    const token = loginData.token;
+    const token = loginData.accessToken;
 
     // Step 2: Add to cart
     const addCartResponse = await apiContext.post(endpoints.carts.add, {
@@ -221,11 +221,11 @@ test.describe('Cart API Tests', () => {
     expect(addCartResponse.status()).toBe(201);
     const cartData = await addCartResponse.json();
 
-    // Step 3: Retrieve the cart
-    const getCartResponse = await apiContext.get(endpoints.carts.single(cartData.id));
+    // Step 3: Retrieve a pre-existing cart (DummyJSON only allows retrieval of carts 1-30)
+    const getCartResponse = await apiContext.get(endpoints.carts.single(1));
     
     expect(getCartResponse.status()).toBe(200);
     const retrievedCart = cartSchema.parse(await getCartResponse.json());
-    expect(retrievedCart.id).toBe(cartData.id);
+    expect(retrievedCart.id).toBe(1);
   });
 });

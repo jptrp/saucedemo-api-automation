@@ -92,12 +92,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 267,
+                      "duration": 219,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-11-16T04:47:23.096Z",
+                      "startTime": "2025-11-16T04:55:19.743Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -126,12 +126,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 134,
+                      "duration": 111,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-11-16T04:47:23.428Z",
+                      "startTime": "2025-11-16T04:55:20.024Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -160,12 +160,12 @@
                       "workerIndex": 1,
                       "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 331,
+                      "duration": 213,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-11-16T04:47:23.095Z",
+                      "startTime": "2025-11-16T04:55:19.747Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -194,12 +194,12 @@
                       "workerIndex": 1,
                       "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 85,
+                      "duration": 78,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-11-16T04:47:23.494Z",
+                      "startTime": "2025-11-16T04:55:20.019Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -228,12 +228,12 @@
                       "workerIndex": 2,
                       "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 211,
+                      "duration": 228,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-11-16T04:47:23.086Z",
+                      "startTime": "2025-11-16T04:55:19.740Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -262,12 +262,12 @@
                       "workerIndex": 2,
                       "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 81,
+                      "duration": 87,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-11-16T04:47:23.372Z",
+                      "startTime": "2025-11-16T04:55:20.032Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -296,12 +296,12 @@
                       "workerIndex": 3,
                       "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 286,
+                      "duration": 312,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-11-16T04:47:23.090Z",
+                      "startTime": "2025-11-16T04:55:19.742Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -344,15 +344,15 @@
                   "projectName": "",
                   "results": [
                     {
-                      "workerIndex": 3,
-                      "parallelIndex": 3,
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 108,
+                      "duration": 79,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-11-16T04:47:23.462Z",
+                      "startTime": "2025-11-16T04:55:20.122Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -378,15 +378,15 @@
                   "projectName": "",
                   "results": [
                     {
-                      "workerIndex": 3,
-                      "parallelIndex": 3,
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 100,
+                      "duration": 80,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-11-16T04:47:23.732Z",
+                      "startTime": "2025-11-16T04:55:20.344Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -412,15 +412,15 @@
                   "projectName": "",
                   "results": [
                     {
-                      "workerIndex": 3,
-                      "parallelIndex": 3,
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 89,
+                      "duration": 74,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-11-16T04:47:23.838Z",
+                      "startTime": "2025-11-16T04:55:20.430Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -446,15 +446,15 @@
                   "projectName": "",
                   "results": [
                     {
-                      "workerIndex": 2,
-                      "parallelIndex": 2,
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 81,
+                      "duration": 90,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-11-16T04:47:23.476Z",
+                      "startTime": "2025-11-16T04:55:20.130Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -480,15 +480,15 @@
                   "projectName": "",
                   "results": [
                     {
-                      "workerIndex": 2,
-                      "parallelIndex": 2,
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 87,
+                      "duration": 90,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-11-16T04:47:23.703Z",
+                      "startTime": "2025-11-16T04:55:20.373Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -514,15 +514,15 @@
                   "projectName": "",
                   "results": [
                     {
-                      "workerIndex": 2,
-                      "parallelIndex": 2,
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 79,
+                      "duration": 95,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-11-16T04:47:23.797Z",
+                      "startTime": "2025-11-16T04:55:20.471Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -548,15 +548,15 @@
                   "projectName": "",
                   "results": [
                     {
-                      "workerIndex": 0,
-                      "parallelIndex": 0,
+                      "workerIndex": 2,
+                      "parallelIndex": 2,
                       "status": "passed",
                       "duration": 86,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-11-16T04:47:23.589Z",
+                      "startTime": "2025-11-16T04:55:20.140Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -582,15 +582,15 @@
                   "projectName": "",
                   "results": [
                     {
-                      "workerIndex": 0,
-                      "parallelIndex": 0,
+                      "workerIndex": 2,
+                      "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 89,
+                      "duration": 85,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-11-16T04:47:23.815Z",
+                      "startTime": "2025-11-16T04:55:20.382Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -616,15 +616,15 @@
                   "projectName": "",
                   "results": [
                     {
-                      "workerIndex": 0,
-                      "parallelIndex": 0,
+                      "workerIndex": 2,
+                      "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 93,
+                      "duration": 104,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-11-16T04:47:23.909Z",
+                      "startTime": "2025-11-16T04:55:20.473Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -639,7 +639,7 @@
             },
             {
               "title": "Cart workflow - login, add to cart, retrieve",
-              "ok": false,
+              "ok": true,
               "tags": [],
               "tests": [
                 {
@@ -650,50 +650,20 @@
                   "projectName": "",
                   "results": [
                     {
-                      "workerIndex": 1,
-                      "parallelIndex": 1,
-                      "status": "failed",
-                      "duration": 303,
-                      "error": {
-                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m200\u001b[39m\nReceived: \u001b[31m404\u001b[39m",
-                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m200\u001b[39m\nReceived: \u001b[31m404\u001b[39m\n    at /Users/dustinbraun/Career/saucedemo-api-automation/playwright-api/tests/cart.spec.ts:227:38",
-                        "location": {
-                          "file": "/Users/dustinbraun/Career/saucedemo-api-automation/playwright-api/tests/cart.spec.ts",
-                          "column": 38,
-                          "line": 227
-                        },
-                        "snippet": "  225 |     const getCartResponse = await apiContext.get(endpoints.carts.single(cartData.id));\n  226 |     \n> 227 |     expect(getCartResponse.status()).toBe(200);\n      |                                      ^\n  228 |     const retrievedCart = cartSchema.parse(await getCartResponse.json());\n  229 |     expect(retrievedCart.id).toBe(cartData.id);\n  230 |   });"
-                      },
-                      "errors": [
-                        {
-                          "location": {
-                            "file": "/Users/dustinbraun/Career/saucedemo-api-automation/playwright-api/tests/cart.spec.ts",
-                            "column": 38,
-                            "line": 227
-                          },
-                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m200\u001b[39m\nReceived: \u001b[31m404\u001b[39m\n\n  225 |     const getCartResponse = await apiContext.get(endpoints.carts.single(cartData.id));\n  226 |     \n> 227 |     expect(getCartResponse.status()).toBe(200);\n      |                                      ^\n  228 |     const retrievedCart = cartSchema.parse(await getCartResponse.json());\n  229 |     expect(retrievedCart.id).toBe(cartData.id);\n  230 |   });\n    at /Users/dustinbraun/Career/saucedemo-api-automation/playwright-api/tests/cart.spec.ts:227:38"
-                        }
-                      ],
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 279,
+                      "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-11-16T04:47:23.600Z",
+                      "startTime": "2025-11-16T04:55:20.157Z",
                       "annotations": [],
-                      "attachments": [
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "/Users/dustinbraun/Career/saucedemo-api-automation/playwright-api/test-results/cart-Cart-API-Tests-Cart-w-1a1cd--login-add-to-cart-retrieve/trace.zip"
-                        }
-                      ],
-                      "errorLocation": {
-                        "file": "/Users/dustinbraun/Career/saucedemo-api-automation/playwright-api/tests/cart.spec.ts",
-                        "column": 38,
-                        "line": 227
-                      }
+                      "attachments": []
                     }
                   ],
-                  "status": "unexpected"
+                  "status": "expected"
                 }
               ],
               "id": "1981448f0b79506fb670-a37f9026a4e6316c107a",
@@ -731,15 +701,15 @@
                   "projectName": "",
                   "results": [
                     {
-                      "workerIndex": 2,
-                      "parallelIndex": 2,
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 306,
+                      "duration": 236,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-11-16T04:47:23.898Z",
+                      "startTime": "2025-11-16T04:55:20.529Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -765,15 +735,15 @@
                   "projectName": "",
                   "results": [
                     {
-                      "workerIndex": 2,
-                      "parallelIndex": 2,
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 294,
+                      "duration": 268,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-11-16T04:47:24.223Z",
+                      "startTime": "2025-11-16T04:55:20.832Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -802,12 +772,12 @@
                       "workerIndex": 3,
                       "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 388,
+                      "duration": 399,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-11-16T04:47:23.949Z",
+                      "startTime": "2025-11-16T04:55:20.605Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -822,7 +792,7 @@
             },
             {
               "title": "Category Browse > Add to Cart Flow",
-              "ok": false,
+              "ok": true,
               "tags": [],
               "tests": [
                 {
@@ -835,48 +805,18 @@
                     {
                       "workerIndex": 3,
                       "parallelIndex": 3,
-                      "status": "failed",
-                      "duration": 289,
-                      "error": {
-                        "message": "TypeError: Cannot read properties of undefined (reading 'id')",
-                        "stack": "TypeError: Cannot read properties of undefined (reading 'id')\n    at /Users/dustinbraun/Career/saucedemo-api-automation/playwright-api/tests/checkout.spec.ts:188:30",
-                        "location": {
-                          "file": "/Users/dustinbraun/Career/saucedemo-api-automation/playwright-api/tests/checkout.spec.ts",
-                          "column": 30,
-                          "line": 188
-                        },
-                        "snippet": "  186 |         products: [\n  187 |           {\n> 188 |             id: productToAdd.id,\n      |                              ^\n  189 |             quantity: 1,\n  190 |           },\n  191 |         ],"
-                      },
-                      "errors": [
-                        {
-                          "location": {
-                            "file": "/Users/dustinbraun/Career/saucedemo-api-automation/playwright-api/tests/checkout.spec.ts",
-                            "column": 30,
-                            "line": 188
-                          },
-                          "message": "TypeError: Cannot read properties of undefined (reading 'id')\n\n  186 |         products: [\n  187 |           {\n> 188 |             id: productToAdd.id,\n      |                              ^\n  189 |             quantity: 1,\n  190 |           },\n  191 |         ],\n    at /Users/dustinbraun/Career/saucedemo-api-automation/playwright-api/tests/checkout.spec.ts:188:30"
-                        }
-                      ],
+                      "status": "passed",
+                      "duration": 398,
+                      "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-11-16T04:47:24.355Z",
+                      "startTime": "2025-11-16T04:55:21.023Z",
                       "annotations": [],
-                      "attachments": [
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "/Users/dustinbraun/Career/saucedemo-api-automation/playwright-api/test-results/checkout-Checkout-End-to-E-1d6b2-ory-Browse-Add-to-Cart-Flow/trace.zip"
-                        }
-                      ],
-                      "errorLocation": {
-                        "file": "/Users/dustinbraun/Career/saucedemo-api-automation/playwright-api/tests/checkout.spec.ts",
-                        "column": 30,
-                        "line": 188
-                      }
+                      "attachments": []
                     }
                   ],
-                  "status": "unexpected"
+                  "status": "expected"
                 }
               ],
               "id": "25ab1bfc84c57e3e3a45-9bb2c95b7651219b79ff",
@@ -886,7 +826,7 @@
             },
             {
               "title": "Update Cart Quantity Flow",
-              "ok": false,
+              "ok": true,
               "tags": [],
               "tests": [
                 {
@@ -899,48 +839,18 @@
                     {
                       "workerIndex": 0,
                       "parallelIndex": 0,
-                      "status": "failed",
-                      "duration": 287,
-                      "error": {
-                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m200\u001b[39m\nReceived: \u001b[31m404\u001b[39m",
-                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m200\u001b[39m\nReceived: \u001b[31m404\u001b[39m\n    at /Users/dustinbraun/Career/saucedemo-api-automation/playwright-api/tests/checkout.spec.ts:233:37",
-                        "location": {
-                          "file": "/Users/dustinbraun/Career/saucedemo-api-automation/playwright-api/tests/checkout.spec.ts",
-                          "column": 37,
-                          "line": 233
-                        },
-                        "snippet": "  231 |     });\n  232 |\n> 233 |     expect(updateResponse.status()).toBe(200);\n      |                                     ^\n  234 |     const updatedCart = await updateResponse.json();\n  235 |     \n  236 |     // Verify quantity was updated"
-                      },
-                      "errors": [
-                        {
-                          "location": {
-                            "file": "/Users/dustinbraun/Career/saucedemo-api-automation/playwright-api/tests/checkout.spec.ts",
-                            "column": 37,
-                            "line": 233
-                          },
-                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m200\u001b[39m\nReceived: \u001b[31m404\u001b[39m\n\n  231 |     });\n  232 |\n> 233 |     expect(updateResponse.status()).toBe(200);\n      |                                     ^\n  234 |     const updatedCart = await updateResponse.json();\n  235 |     \n  236 |     // Verify quantity was updated\n    at /Users/dustinbraun/Career/saucedemo-api-automation/playwright-api/tests/checkout.spec.ts:233:37"
-                        }
-                      ],
+                      "status": "passed",
+                      "duration": 255,
+                      "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-11-16T04:47:24.026Z",
+                      "startTime": "2025-11-16T04:55:20.602Z",
                       "annotations": [],
-                      "attachments": [
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "/Users/dustinbraun/Career/saucedemo-api-automation/playwright-api/test-results/checkout-Checkout-End-to-E-e3856-s-Update-Cart-Quantity-Flow/trace.zip"
-                        }
-                      ],
-                      "errorLocation": {
-                        "file": "/Users/dustinbraun/Career/saucedemo-api-automation/playwright-api/tests/checkout.spec.ts",
-                        "column": 37,
-                        "line": 233
-                      }
+                      "attachments": []
                     }
                   ],
-                  "status": "unexpected"
+                  "status": "expected"
                 }
               ],
               "id": "25ab1bfc84c57e3e3a45-1e2fb519b04b4daa6f2b",
@@ -961,15 +871,15 @@
                   "projectName": "",
                   "results": [
                     {
-                      "workerIndex": 5,
+                      "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 449,
+                      "duration": 406,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-11-16T04:47:24.757Z",
+                      "startTime": "2025-11-16T04:55:20.877Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -979,7 +889,7 @@
               ],
               "id": "25ab1bfc84c57e3e3a45-ca22800016b9ffcc61b4",
               "file": "checkout.spec.ts",
-              "line": 240,
+              "line": 241,
               "column": 3
             },
             {
@@ -995,15 +905,15 @@
                   "projectName": "",
                   "results": [
                     {
-                      "workerIndex": 4,
-                      "parallelIndex": 1,
+                      "workerIndex": 2,
+                      "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 282,
+                      "duration": 266,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-11-16T04:47:24.510Z",
+                      "startTime": "2025-11-16T04:55:20.610Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1013,7 +923,7 @@
               ],
               "id": "25ab1bfc84c57e3e3a45-92188147ddda10771f55",
               "file": "checkout.spec.ts",
-              "line": 287,
+              "line": 288,
               "column": 3
             }
           ]
@@ -1054,7 +964,7 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-11-16T04:47:24.533Z",
+                      "startTime": "2025-11-16T04:55:20.915Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1088,7 +998,7 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-11-16T04:47:24.609Z",
+                      "startTime": "2025-11-16T04:55:20.981Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1117,12 +1027,12 @@
                       "workerIndex": 2,
                       "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 85,
+                      "duration": 90,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-11-16T04:47:24.657Z",
+                      "startTime": "2025-11-16T04:55:21.030Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1148,15 +1058,15 @@
                   "projectName": "",
                   "results": [
                     {
-                      "workerIndex": 6,
-                      "parallelIndex": 3,
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 148,
+                      "duration": 71,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-11-16T04:47:25.072Z",
+                      "startTime": "2025-11-16T04:55:21.122Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1182,15 +1092,15 @@
                   "projectName": "",
                   "results": [
                     {
-                      "workerIndex": 6,
-                      "parallelIndex": 3,
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 81,
+                      "duration": 85,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-11-16T04:47:25.269Z",
+                      "startTime": "2025-11-16T04:55:21.207Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1216,15 +1126,15 @@
                   "projectName": "",
                   "results": [
                     {
-                      "workerIndex": 6,
-                      "parallelIndex": 3,
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 68,
+                      "duration": 77,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-11-16T04:47:25.358Z",
+                      "startTime": "2025-11-16T04:55:21.297Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1253,12 +1163,12 @@
                       "workerIndex": 2,
                       "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 82,
+                      "duration": 86,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-11-16T04:47:24.756Z",
+                      "startTime": "2025-11-16T04:55:21.132Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1287,12 +1197,12 @@
                       "workerIndex": 2,
                       "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 79,
+                      "duration": 87,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-11-16T04:47:24.852Z",
+                      "startTime": "2025-11-16T04:55:21.231Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1321,12 +1231,12 @@
                       "workerIndex": 2,
                       "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 85,
+                      "duration": 90,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-11-16T04:47:24.936Z",
+                      "startTime": "2025-11-16T04:55:21.323Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1352,15 +1262,15 @@
                   "projectName": "",
                   "results": [
                     {
-                      "workerIndex": 4,
-                      "parallelIndex": 1,
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
                       "status": "passed",
                       "duration": 28,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-11-16T04:47:24.856Z",
+                      "startTime": "2025-11-16T04:55:21.309Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1380,11 +1290,11 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-11-16T04:47:22.623Z",
-    "duration": 2826.703,
-    "expected": 31,
+    "startTime": "2025-11-16T04:55:19.136Z",
+    "duration": 2315.849,
+    "expected": 34,
     "skipped": 0,
-    "unexpected": 3,
+    "unexpected": 0,
     "flaky": 0
   }
 }

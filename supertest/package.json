@@ -1,0 +1,32 @@
+{
+  "name": "supertest-api-automation",
+  "version": "1.0.0",
+  "description": "Axios + Supertest + Vitest API automation suite",
+  "type": "module",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest watch",
+    "test:ui": "vitest --ui",
+    "test:coverage": "vitest run --coverage"
+  },
+  "keywords": [
+    "supertest",
+    "axios",
+    "vitest",
+    "api-testing",
+    "automation"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "supertest": "^6.3.3",
+    "zod": "^3.22.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "@types/supertest": "^6.0.2",
+    "typescript": "^5.2.0",
+    "vitest": "^1.0.4"
+  }
+}

@@ -16,8 +16,8 @@ describe('Authentication API Tests - Axios', () => {
     // Validate response schema using Zod
     const validatedData = loginResponseSchema.parse(response.data);
 
-    expect(validatedData.token).toBeDefined();
-    expect(validatedData.token.length).toBeGreaterThan(0);
+    expect(validatedData.accessToken).toBeDefined();
+    expect(validatedData.accessToken.length).toBeGreaterThan(0);
     expect(validatedData.refreshToken).toBeDefined();
     expect(validatedData.username).toBe('emilys');
     expect(validatedData.email).toContain('@');
@@ -134,7 +134,7 @@ describe('Authentication API Tests - Supertest', () => {
       })
       .expect(200);
 
-    expect(response.body).toHaveProperty('token');
+    expect(response.body).toHaveProperty('accessToken');
     expect(response.body).toHaveProperty('refreshToken');
     expect(response.body).toHaveProperty('id');
     expect(response.body).toHaveProperty('username');

@@ -181,7 +181,7 @@ describe('Cart API Tests - Axios', () => {
 
     expect(loginResponse.status).toBe(200);
     const loginData = loginResponse.data;
-    const token = loginData.token;
+    const token = loginData.accessToken;
 
     // Step 2: Add to cart
     const addCartResponse = await api.post(endpoints.carts.add, {
@@ -192,12 +192,12 @@ describe('Cart API Tests - Axios', () => {
     expect(addCartResponse.status).toBe(201);
     const cartData = addCartResponse.data;
 
-    // Step 3: Retrieve the cart
-    const getCartResponse = await api.get(endpoints.carts.single(cartData.id));
+    // Step 3: Retrieve a pre-existing cart (DummyJSON only allows retrieval of carts 1-30)
+    const getCartResponse = await api.get(endpoints.carts.single(1));
 
     expect(getCartResponse.status).toBe(200);
     const retrievedCart = cartSchema.parse(getCartResponse.data);
-    expect(retrievedCart.id).toBe(cartData.id);
+    expect(retrievedCart.id).toBe(1);
   });
 });
 

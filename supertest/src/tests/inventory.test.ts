@@ -108,7 +108,9 @@ describe('Inventory/Products API Tests - Axios', () => {
 
     expect(Array.isArray(response.data)).toBeTruthy();
     expect(response.data.length).toBeGreaterThan(0);
-    expect(response.data).toContain('smartphones');
+    // Categories are now objects with slug, name, url properties
+    const hasSmartphones = response.data.some((cat: any) => cat.slug === 'smartphones');
+    expect(hasSmartphones).toBeTruthy();
   });
 
   test('GET /products/category/:category - retrieve products by category', async () => {
